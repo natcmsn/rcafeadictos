@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP:wght@300&family=Zen+Kurenaido&display=swap');
+
+@font-face{                       /*Para crear una fuente escribo @font-face. Se pone arriba de todo del documento para que se pueda aplicar a instrucciones que se dan a continuación.*/
+    font-family:'Amatic';          /*Se le pone un nombre a la fuente, preferiblemente entre comillas (si es una palabra sola puede que lo admita sin comillas).*/
+    src:url(../fonts/AmaticSC-Regular.ttf)     /*Qué archivo es. Los ../ son para abrir la carpeta anterior. Si se quiere se puede poner el enlace a varios archivos que pertenecen a la misma fuente.*/
+}
+
+body{      
+    background-color: #F7F7F7;
+    text-align: center;
+    font-family: monospace; /*font-family se usa para buscar fuentes más típicas. Se aplicará a toda la web (excepto si le meto otra fuente diferente a alguno de los elementos).*/
+    font-size: 20px;
+}
+
+nav{   
+    /*position: fixed;  Esto se hace con JS*/
+    z-index:1; /*Posición respecto a otras capas (lo dejo aquí por si añado otras capas pero de momento no me hace falta).*/
+    background-color: #8a513b;
+    color: rgb(255, 243, 177);    /*Color de texto*/
+}
+
+nav li{
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #FFF3B1;
+}
+
+a{
+color: #FFF3B1;
+}
+
+#navtitle{
+    font-size: 30px;
+    font-family: 'Lobster';
+}
+
+#titlevideo{
+    font-size: 70px;
+    font-family: 'Lobster';
+    color: #8a513b;
+}
+
+#divvideo{
+    height: 5%;
+}
+
+video{
+    width: 100%;
+    z-index:-1;
+}
+
+#presentacion{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#welcome{
+    font-size: 40px;
+    font-family: 'Lobster';
+    color: #8a513b;  
+}
+
+.sectiontitle{
+    font-size: 40px;
+    font-family: 'Lobster';
+    color: #8a513b;
+}
+
+.sectionmenu{
+    
+}
+
+.menutitles{
+    font-size: 30px;
+    font-family: 'Lobster';
+    color: #867b3c;    
+}
+
+.grid-container{
+    display: inline-flex;
+}
+
+img{
+    max-width: 90%;
+    max-height: 50%
+}
+
+
+
+footer{
+    background-color: #8A513B;
+    
+}
+
+footer ul{
+    padding: 4%;
+}
+
+footer li{
+    display: inline-flex;
+}
